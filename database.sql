@@ -16,3 +16,6 @@ CREATE TABLE bookings (
     status VARCHAR(20) DEFAULT 'pending',
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+
+
+
